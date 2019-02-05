@@ -1,7 +1,5 @@
 module HtmlTag where 
 
-import Assert
-
 data Attribute = Attribute String String deriving (Eq, Show)
 
 data BeginningTag = BeginningTag String [Attribute] deriving (Eq, Show)
